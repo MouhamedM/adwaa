@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+header {
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+
+main {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+section {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+section h2 {
+  color: #d32f2f;
+  border-bottom: 2px solid #f44336;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: "✅ ";
+  padding-right: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.contact {
+  text-align: center;
+}
+
+#whatsappBtn {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#whatsappBtn:hover {
+  background-color: #1da851;
+}
+
+.phone {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #777;
+}
